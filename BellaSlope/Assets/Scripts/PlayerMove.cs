@@ -6,7 +6,7 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] float moveSpeed;
     [SerializeField] float startSpeed;
     [SerializeField] float timeStartSpeed;
-    float jumpForce = 0.05f;
+    float jumpForce = 0.5f;
     float timeStartSpeedCounter;
 
     void Update()
